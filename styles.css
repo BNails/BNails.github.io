@@ -25,7 +25,7 @@ header ul{
 }
 header ul li{
     display: flex;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 header ul li a{
     text-decoration: none;
