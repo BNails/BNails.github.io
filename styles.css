@@ -136,3 +136,34 @@ footer h3{
     font-size: 22px;
     color: white;
 }
+@media only screen and (max-width:760px) {
+    #home .contact{
+        width: 300px;
+        font-size: 2rem;
+        line-height: 50px;
+        left: 120px;
+        border: none;
+        top:100px;
+    }
+    #container .images{
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+        justify-content: center;
+    }
+    #container .images img{
+        padding-top: 10px;
+    }
+    .img{
+        height: 700px;
+    }
+    #container-eyelashes .images{
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+        justify-content: center;
+    }
+    #container-eyelashes .images img{
+        padding-top: 10px;
+    }
+}
