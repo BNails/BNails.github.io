@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    font-family: "Krub";
+}
+body{
+    background-color: gray;
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    opacity: 0.8;
+}
+header h1{
+    color: white;
+    font-family: "Great Vibes";
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    display: flex;
+    margin-right: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding:3px;
+    color: white;
+    font-weight: bold;
+}
+header ul li a:hover{
+    border: 1px solid #f9004d;
+    cursor: pointer;
+    background-color: #f9004d;
+    color:white;
+}
+span{
+    color: #f9004d;
+    text-shadow: 3px 1px black;
+}
+h2{
+    color: #f9004d;
+    text-shadow: 3px 1px black;
+}
+header .appointment{
+    border: 1px solid #f9004d;
+    border-radius: 30px;
+    color: white;
+    background-color: #f9004d;
+}
+header .appointment:hover{
+    background-color: white;
+    color: #f9004d;
+    cursor: pointer;
+    border: 1px solid black;
+}
+/*home*/
+#home .contact{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    border: 2px solid white;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    color: black;
+    font-size: 3rem;
+    line-height: 70px;
+
+}
+.img{
+    background-image: url(/background3.jpg);
+    height: 721px;
+    background-position: center;
+}
+.contact a img{
+    width: 75px;
+    height: 75px;
+}.contact a img {
+    color: white;
+}
+/*Nails section*/
+#container{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#Nails{
+    font-size: 2rem;
+    padding: 10px 0;
+}
+#container .images img{
+    width: 400px;
+    height: 500px;
+}
+/*Eyelashes section*/
+#container-eyelashes{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#Eyelashes{
+    font-size: 2rem;
+    padding: 10px 0;
+}
+#container-eyelashes .images img{
+    width: 400px;
+    height: 500px;
+}
+/*Footer*/
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+}
+p{
+    text-align: left !important;
+    font-size: smaller;
+}
+footer h3{
+    font-size: 22px;
+    color: white;
+}
